@@ -1,6 +1,12 @@
 /*Variáveis*/
+:root {
+    --cor-de-fundo: #E5E5E5;
+}
 
 /*Topo Celular*/
+.body {
+    background-color: var(--cor-de-fundo);
+}
 
 /*Topo Tablet*/
 
