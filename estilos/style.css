@@ -1,10 +1,10 @@
 /*Variáveis*/
 :root {
-    --cor-de-fundo: #E5E5E5;
+    --cor-de-fundo: #c93333;
 }
 
 /*Topo Celular*/
-.body {
+body {
     background-color: var(--cor-de-fundo);
 }
 
