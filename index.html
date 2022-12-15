@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato&family=Montserrat:wght@100&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
@@ -48,12 +50,48 @@
             <a href="#"><img src="imagens/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header> <!--Topo-->
+
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section> <!--Banner-->
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+                <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="imagens/ApacheKafka.png" alt="Livro">
+            </div>
+            <div class="swiper-slide">
+                <img src="imagens/Guia Front-end.png" alt="Livros">
+            </div>
+            <div class="swiper-slide">
+                <img src="imagens/Javascript.png" alt="Livros">
+            </div>
+            <div class="swiper-slide">
+                <img src="imagens/Liderança.png" alt="Livros">
+            </div>
+            <div class="swiper-slide">
+                <img src="imagens/Portugol.png" alt="Livros">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+        </div>
+    </section> <!--Carrossel-->
+
     <main></main> <!--Conteúdo-->
     <footer></footer> <!--Rodapé-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
