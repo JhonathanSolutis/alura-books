@@ -1,8 +1,7 @@
-/*Outras folhas de estilos*/
 @import url("header.css");
 @import url("banner.css");
 
-/*Variáveis*/
+
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -11,23 +10,9 @@
     --fonte-principal: "Poppins";
 }
 
-/*Conteúdo Celular*/
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
-
-
-/*Conteúdo Celular*/
-
-/*Conteúdo Tablet*/
-
-/*Conteúdo Desktop*/
-
-/*Rodapé Celular*/
-
-/*Rodapé Tablet*/
-
-/*Rodapé Desktop*/
