@@ -23,7 +23,7 @@
 
 .contato__email {
     padding: 1em;
-    border: 1px solid var(--azul-degrade);
+    border: 1px solid #000000;
     border-radius: 24px;
     width: 90%;
     color: var(--azul-degrade);
