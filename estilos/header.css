@@ -150,6 +150,8 @@
 
 }
 
+/*Desiner para Desktop*/
+
 @media screen and (min-width: 1728px) {
     .container__link {
         display: flex;

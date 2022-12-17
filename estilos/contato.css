@@ -61,6 +61,8 @@
     }
 }
 
+/*Desiner para Desktop*/
+
 @media screen and (min-width: 1728px) {
     .contato {
         padding: 3em 20vw;

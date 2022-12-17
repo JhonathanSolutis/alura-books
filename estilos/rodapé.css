@@ -47,6 +47,8 @@ hr {
     }
 }
 
+/*Desiner para Desktop*/
+
 @media screen and (min-width: 1728px) {
     .lista-rodapé {
         border-left: 1px solid var(--cinza-claro);
