@@ -1,3 +1,5 @@
+/*Desiner para Celular*/
+
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
@@ -77,6 +79,8 @@
 .container__texto {
     display: none;
 }
+
+/*Desiner para tablet*/
 
 @media screen and (min-width: 1024px) {
 

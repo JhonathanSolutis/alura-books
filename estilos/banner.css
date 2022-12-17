@@ -1,3 +1,5 @@
+/*Desiner para Celular*/
+
 .banner {
     background: var(--azul-degrade);
     color: var(--branco);
@@ -34,6 +36,8 @@
     background-position: 0.2em;
 }
 
+/*Desiner para tablet*/
+
 @media screen and (min-width: 1024px) {
     .banner__titulo {
         font-size: 36px;
@@ -44,7 +48,7 @@
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 7em;
+        background-position: 6em;
     }
 }
 
