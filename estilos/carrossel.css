@@ -1,3 +1,5 @@
+/*Desiner para Celular*/
+
 .carrossel__titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -72,6 +74,8 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+/*Desiner para tablet*/
 
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {

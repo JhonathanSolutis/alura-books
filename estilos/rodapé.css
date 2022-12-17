@@ -1,3 +1,5 @@
+/*Desiner para Celular*/
+
 hr {
     margin: 0;
 }
@@ -10,6 +12,8 @@ hr {
 .lista-rodapé {
     display: none;
 }
+
+/*Desiner para tablet*/
 
 @media screen and (min-width: 1024px) {
     .rodapé {
